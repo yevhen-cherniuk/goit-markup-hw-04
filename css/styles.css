@@ -188,6 +188,22 @@ ul {
   text-align: center;
   background-color: var(--dark-bg);
 }
+/* Фон  секции Герой*/
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/img/img_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .hero-title {
   margin-bottom: 30px;
   font-family: Roboto, sans-serif;
@@ -245,6 +261,29 @@ ul {
 .menu-features .list-item {
   width: calc((100% - 90px) / 4);
 }
+.menu-features .list-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--creamy);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+.icon-antenna::before {
+  background-image: url(/img/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(/img/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(/img/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(/img/astronaut.svg);
+}
+
 .menu-features .title {
   margin-bottom: 10px;
 }
@@ -265,6 +304,7 @@ ul {
 .list-item {
   list-style: none;
 }
+
 .section-title {
   font-family: Roboto, sans-serif;
   font-weight: 700;

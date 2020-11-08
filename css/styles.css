@@ -265,16 +265,16 @@ ul {
   background-position: center;
   border-radius: 4px;
 }
-.icon-antenna::before {
+.list-item.icon-antenna::before {
   background-image: url(/img/antenna.svg);
 }
-.icon-clock::before {
+.list-item.icon-clock::before {
   background-image: url(/img/clock.svg);
 }
-.icon-diagram::before {
+.list-item.icon-diagram::before {
   background-image: url(/img/diagram.svg);
 }
-.icon-astronaut::before {
+.list-item.icon-astronaut::before {
   background-image: url(/img/astronaut.svg);
 }
 

@@ -200,7 +200,7 @@ ul {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./img/img_hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/img_hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -266,17 +266,17 @@ ul {
   background-position: center;
   border-radius: 4px;
 }
-.icon-antenna::before {
-  background-image: url(./img/antenna.svg);
+.list-item .icon-antenna::before {
+  background-image: url(/img/antenna.svg);
 }
 .icon-clock::before {
-  background-image: url(./img/clock.svg);
+  background-image: url(/img/clock.svg);
 }
 .icon-diagram::before {
-  background-image: url(./img/diagram.svg);
+  background-image: url(/img/diagram.svg);
 }
 .icon-astronaut::before {
-  background-image: url(./img/astronaut.svg);
+  background-image: url(/img/astronaut.svg);
 }
 
 .menu-features .title {

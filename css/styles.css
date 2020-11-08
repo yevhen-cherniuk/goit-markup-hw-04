@@ -93,6 +93,13 @@ ul {
 .page-header {
   border-bottom: 1px solid #ececec;
 }
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .header-conteiner {
   display: flex;
   align-items: center;
@@ -167,7 +174,18 @@ ul {
 .conect-nav .link + .link {
   margin-left: 50px;
 }
-
+.conect-nav.smartphone {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.header-conect:hover,
+.header-conect:focus {
+  color: var(--accent-cl);
+}
+.header-svg {
+  margin-right: 10px;
+  fill: currentColor;
+}
 /* Стилизирует секцию Герой */
 
 .hero {
@@ -230,13 +248,7 @@ ul {
   width: 1px !important;
   overflow: hidden;
 }
-.conteiner {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .menu-features {
   display: flex;
   justify-content: space-between;
